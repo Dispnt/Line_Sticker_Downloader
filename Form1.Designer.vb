@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form 重写 Dispose，以清理组件列表。
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     '注意: 以下过程是 Windows 窗体设计器所必需的
     '可以使用 Windows 窗体设计器修改它。  
     '不要使用代码编辑器修改它。
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
@@ -54,7 +54,7 @@ Partial Class Form1
         '
         Me.beginfrom.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.beginfrom.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.beginfrom.Location = New System.Drawing.Point(89, 17)
+        Me.beginfrom.Location = New System.Drawing.Point(8, 29)
         Me.beginfrom.Name = "beginfrom"
         Me.beginfrom.Size = New System.Drawing.Size(55, 14)
         Me.beginfrom.TabIndex = 1
@@ -63,7 +63,7 @@ Partial Class Form1
         '
         Me.endto.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.endto.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.endto.Location = New System.Drawing.Point(173, 17)
+        Me.endto.Location = New System.Drawing.Point(93, 28)
         Me.endto.Name = "endto"
         Me.endto.Size = New System.Drawing.Size(55, 14)
         Me.endto.TabIndex = 2
@@ -71,7 +71,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(150, 19)
+        Me.Label1.Location = New System.Drawing.Point(70, 30)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(17, 12)
         Me.Label1.TabIndex = 3
@@ -80,7 +80,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(12, 114)
+        Me.Button1.Location = New System.Drawing.Point(12, 87)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(257, 27)
         Me.Button1.TabIndex = 5
@@ -89,6 +89,7 @@ Partial Class Form1
         '
         'path
         '
+        Me.path.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.path.Location = New System.Drawing.Point(56, 60)
         Me.path.Name = "path"
         Me.path.Size = New System.Drawing.Size(178, 21)
@@ -109,7 +110,7 @@ Partial Class Form1
         Me.ListView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.ListView1.Location = New System.Drawing.Point(295, 12)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(258, 254)
+        Me.ListView1.Size = New System.Drawing.Size(258, 231)
         Me.ListView1.TabIndex = 8
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.List
@@ -117,7 +118,7 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Location = New System.Drawing.Point(6, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(165, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(80, 80)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -138,20 +139,22 @@ Partial Class Form1
         '
         'server
         '
-        Me.server.Location = New System.Drawing.Point(56, 87)
+        Me.server.Location = New System.Drawing.Point(55, 120)
         Me.server.Name = "server"
         Me.server.Size = New System.Drawing.Size(213, 21)
         Me.server.TabIndex = 12
         Me.server.Text = "https://stickershop.line-scdn.net/stickershop/v1/sticker/"
+        Me.server.Visible = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(14, 90)
+        Me.Label3.Location = New System.Drawing.Point(13, 123)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(41, 12)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Server"
+        Me.Label3.Visible = False
         '
         'source
         '
@@ -174,7 +177,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(6, 20)
+        Me.Label4.Location = New System.Drawing.Point(6, 14)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(77, 12)
         Me.Label4.TabIndex = 15
@@ -191,6 +194,7 @@ Partial Class Form1
         Me.ifconnected.TabIndex = 16
         Me.ifconnected.Text = "IF         could connected via -ping"
         Me.ifconnected.UseVisualStyleBackColor = False
+        Me.ifconnected.Visible = False
         '
         'Label5
         '
@@ -201,6 +205,7 @@ Partial Class Form1
         Me.Label5.Size = New System.Drawing.Size(47, 12)
         Me.Label5.TabIndex = 17
         Me.Label5.Text = "Line.me"
+        Me.Label5.Visible = False
         '
         'GroupBox2
         '
@@ -209,21 +214,20 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.endto)
         Me.GroupBox2.Controls.Add(Me.Label5)
         Me.GroupBox2.Controls.Add(Me.beginfrom)
-        Me.GroupBox2.Controls.Add(Me.ifconnected)
         Me.GroupBox2.Controls.Add(Me.Label1)
         Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(12, 157)
+        Me.GroupBox2.Controls.Add(Me.ifconnected)
+        Me.GroupBox2.Location = New System.Drawing.Point(10, 139)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(263, 96)
         Me.GroupBox2.TabIndex = 18
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "status bar"
         '
         'status
         '
         Me.status.AutoSize = True
         Me.status.ForeColor = System.Drawing.Color.Crimson
-        Me.status.Location = New System.Drawing.Point(87, 81)
+        Me.status.Location = New System.Drawing.Point(6, 48)
         Me.status.Name = "status"
         Me.status.Size = New System.Drawing.Size(95, 12)
         Me.status.TabIndex = 18
@@ -233,11 +237,11 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Location = New System.Drawing.Point(135, 146)
+        Me.Label7.Location = New System.Drawing.Point(216, 125)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(131, 12)
+        Me.Label7.Size = New System.Drawing.Size(53, 12)
         Me.Label7.TabIndex = 20
-        Me.Label7.Text = "In winter 2017 Dispnt"
+        Me.Label7.Text = " Dispnt."
         '
         'Timer1
         '
@@ -247,18 +251,19 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
-        Me.ClientSize = New System.Drawing.Size(565, 278)
-        Me.Controls.Add(Me.Label7)
+        Me.ClientSize = New System.Drawing.Size(560, 250)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.server)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.server)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.path)
+        Me.Controls.Add(Me.Label7)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.Text = "Line Sticker Downloader"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

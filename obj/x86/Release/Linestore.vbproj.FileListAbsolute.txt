@@ -1,12 +1,25 @@
-D:\工程\bc\lineshop爬虫\LineStore\bin\Release\LineStore.exe.config
-D:\工程\bc\lineshop爬虫\LineStore\bin\Release\LineStore.exe.manifest
-D:\工程\bc\lineshop爬虫\LineStore\bin\Release\LineStore.application
-D:\工程\bc\lineshop爬虫\LineStore\bin\Release\LineStore.exe
-D:\工程\bc\lineshop爬虫\LineStore\bin\Release\LineStore.pdb
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\Linestore.Form1.resources
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\Linestore.Resources.resources
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\Linestore.vbproj.GenerateResource.Cache
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\LineStore.exe.manifest
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\LineStore.application
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\LineStore.exe
-D:\工程\bc\lineshop爬虫\LineStore\obj\x86\Release\LineStore.pdb
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\bin\Release\LineStore.exe.config
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\bin\Release\LineStore.exe.manifest
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\bin\Release\LineStore.application
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\bin\Release\LineStore.exe
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\bin\Release\LineStore.pdb
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\Linestore.Form1.resources
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\Linestore.Resources.resources
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\Linestore.vbproj.GenerateResource.Cache
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\LineStore.exe.manifest
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\LineStore.application
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\LineStore.exe
+D:\工程\bc\lineshop爬虫\LineStore - 副本 (2)\obj\x86\Release\LineStore.pdb
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\Linestore.vbprojResolveAssemblyReference.cache
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\Linestore.Form1.resources
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\Linestore.Resources.resources
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\Linestore.vbproj.GenerateResource.Cache
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\LineStore.exe.manifest
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\LineStore.exe
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\LineStore.pdb
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\bin\Release\LineStore.exe.config
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\bin\Release\LineStore.exe.manifest
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\bin\Release\LineStore.application
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\bin\Release\LineStore.exe
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\bin\Release\LineStore.pdb
+D:\工程\bc\lineshop爬虫\LineStore - 1.1\obj\x86\Release\LineStore.application
